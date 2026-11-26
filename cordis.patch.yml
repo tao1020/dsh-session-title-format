@@ -1,0 +1,13 @@
+# Replace the shipped free-form title provider with the numbered/bracketed format.
+- id: optional-session-title-all-prompts
+  disabled: true
+
+- insert:
+    - id: session-title-format
+      name: '@local/session-title-format'
+      config:
+        targetWords: 6
+        targetCjkCharacters: 14
+        maxInputBytes: 4096
+        maxOutputTokens: 96
+        timeoutMs: 60000

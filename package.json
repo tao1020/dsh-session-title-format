@@ -1,0 +1,31 @@
+{
+  "name": "@local/session-title-format",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Format automatic session titles as <number>-[<component>]<task>, for example 3-[cdc]测试kafkachangefeed.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "llm.js",
+    "format.js",
+    "numbers.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test test/format.test.js test/numbers.test.js test/llm.test.js test/plugin.test.js"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

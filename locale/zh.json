@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "会话标题编号格式",
+    "description": "把自动会话标题改成「编号-[组件]任务」，例如 3-[cdc]测试kafkachangefeed。编号在同一工作区内固定不变，组件名由模型按内容挑。",
+    "detail": "docs/DETAIL.md"
+  }
+}

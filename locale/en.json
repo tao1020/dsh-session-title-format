@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Numbered session titles",
+    "description": "Rewrites automatic session titles as <number>-[<component>]<task>, for example 3-[cdc]测试kafkachangefeed. The number stays fixed per workspace; the component is chosen by the model.",
+    "detail": "docs/DETAIL.md"
+  }
+}

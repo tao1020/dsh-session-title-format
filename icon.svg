@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Numbered session title">
+  <rect x="3" y="3" width="90" height="90" rx="20" fill="#1e2430"/>
+  <rect x="3" y="3" width="90" height="90" rx="20" fill="none" stroke="#3b4a63" stroke-width="2"/>
+  <text x="30" y="61" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="700" fill="#eef3fb" text-anchor="middle">3</text>
+  <path d="M45 34 L39 34 L39 62 L45 62" fill="none" stroke="#7fd1c1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M51 34 L57 34 L57 62 L51 62" fill="none" stroke="#7fd1c1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="62" y="42" width="18" height="12" rx="3" fill="#7fd1c1" opacity="0.85"/>
+</svg>
