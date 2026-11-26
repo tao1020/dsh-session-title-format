@@ -1,5 +1,7 @@
 # Numbered session titles
 
+Repository: https://github.com/tao1020/dsh-session-title-format
+
 A DeepSeek Harness bundle that replaces the shipped free-form session-title provider and formats every automatic title as:
 
 ```
